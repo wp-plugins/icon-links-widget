@@ -9,22 +9,15 @@
 	.ilw_control {}
 		.ilw_icon {
 			float: left;
-			width: 29%;
+			width: 31%;
 			clear: both;
 		}
 		.ilw_link {
 			float: right;
-			width: 69%;
+			width: 67%;
 		}
-.ilw_intro, .ilw_reference, .ilw_credit {
+.ilw_intro,
+.ilw_credit {
 	display: block;
-	}
-	.ilw_intro {
-		margin: 0 0 10px;
-	}
-	.ilw_reference {
-		margin: 15px 0 0;
-	}
-	.ilw_credit {
-		margin: 0 0 15px;
-	}
+	margin: 15px 0 15px;
+}
