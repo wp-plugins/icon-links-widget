@@ -1,0 +1,23 @@
+.ilw_label {
+	display: block;
+	height: 19px;
+}
+.ilw_control_group {
+	overflow: hidden;
+	margin: 5px 0;
+	}
+	.ilw_control {}
+		.ilw_icon {
+			float: left;
+			width: 31%;
+			clear: both;
+		}
+		.ilw_link {
+			float: right;
+			width: 67%;
+		}
+.ilw_intro,
+.ilw_credit {
+	display: block;
+	margin: 15px 0 15px;
+}
