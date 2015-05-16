@@ -1,10 +1,10 @@
 === Icon Links Widget ===
 Contributors: iammathews
-Donate link: http://yusrimathews.co.za/donate/?project=icon-links-widget
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=yusrimathews%40gmail%2ecom&lc=ZA&item_name=Yusri%20Mathews&item_number=icon%2dlinks%2dwidget&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 Tags: social, link, widget, icon
 Requires at least: 3.9
-Tested up to: 4.1
-Stable tag: 4.1
+Tested up to: 4.2
+Stable tag: 4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,14 @@ Want to contribute? [Fork the GitHub repository](https://github.com/iammathews/i
 = How do I get the icons to show? =
 
 It's simple, under Appearance -> Widgets, add the Icon Links Widget to any widget area.
+
+= Is it possible to change the order of the links? =
+
+You can drag and drop to reorder links. The same as you would reorder widgets within widget areas.
+
+= What are the new tab and no follow checkboxes? =
+
+The new tab checkbox, will ensure that the link is opened in a new tab when clicked on. The no follow checkbox will ensure the link does not get followed by robots that index your site, should you need the feature.
 
 = What is the classes I should use? =
 
@@ -52,6 +60,12 @@ Not at all, you can simply add one, and everytime you save, you would be prompte
 1. This is all it takes, fill in as many icon links as you wish.
 
 == Changelog ==
+
+= 2.0 =
+* Rate/donate alert.
+* Ability to drag/drop reorder links.
+* New tab/no follow options for each link.
+* Remove blank icon only bug.
 
 = 1.0 =
 * Automatically remove "fa-".

@@ -19,4 +19,4 @@ You can say thanks by buying me [Nespresso Capsules] :)
 
 [FontAwesome Cheatsheet]:http://fortawesome.github.io/Font-Awesome/cheatsheet/
 [Support forum]:http://wordpress.org/support/plugin/icon-links-widget
-[Nespresso Capsules]:http://yusrimathews.co.za/donate/?project=icon-links-widget
+[Nespresso Capsules]:https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=yusrimathews%40gmail%2ecom&lc=ZA&item_name=Yusri%20Mathews&item_number=icon%2dlinks%2dwidget&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
