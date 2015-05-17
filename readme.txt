@@ -61,6 +61,9 @@ Not at all, you can simply add one, and everytime you save, you would be prompte
 
 == Changelog ==
 
+= 2.1 =
+* Updated notices logic.
+
 = 2.0 =
 * Rate/donate alert.
 * Ability to drag/drop reorder links.
