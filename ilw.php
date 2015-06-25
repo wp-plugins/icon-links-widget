@@ -3,7 +3,7 @@
  * Plugin Name: Icon Links Widget
  * Plugin URI: https://wordpress.org/plugins/icon-links-widget/
  * Description: A simple icon links widget, allowing you to add FontAwesome icons to any widget area and link them anywhere.
- * Version: 2.1
+ * Version: 2.5
  * Author: Yusri Mathews
  * Author URI: http://yusrimathews.co.za/
  * License: GPLv2 or later
@@ -53,7 +53,7 @@ class ilw_widget extends WP_Widget {
 
     // Widget Display
 	public function widget( $args, $instance ){
-		wp_enqueue_style( 'ilw_fa_style', plugins_url( 'vendor/font-awesome/4.2.0/css/font-awesome.min.css', __FILE__ ) );
+		wp_enqueue_style( 'ilw_fa_style', plugins_url( 'vendor/font-awesome/css/font-awesome.min.css', __FILE__ ) );
 		wp_enqueue_style( 'ilw_widget_style', plugins_url( 'css/public.min.css', __FILE__ ), array( 'ilw_fa_style' ) );
 
 		$title = $instance['title'];
@@ -124,7 +124,7 @@ class ilw_widget extends WP_Widget {
 
 		$fieldcount = count( $fields );
 		$arraykey = array_pop( array_keys( $fields ) );
-		if( !empty( $fields[ $arraykey ]['icon'] ) ){
+		if( $fieldcount == 0 || !empty( $fields[ $arraykey ]['icon'] ) ){
 	        $fields[ $fieldcount ]['icon'] = '';
 	        $fields[ $fieldcount ]['link'] = '';
 	        $fields[ $fieldcount ]['newtab'] = '';

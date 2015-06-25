@@ -61,6 +61,10 @@ Not at all, you can simply add one, and everytime you save, you would be prompte
 
 == Changelog ==
 
+= 2.5 =
+* Fixed first link bug.
+* Updated to Font Awesome 4.3.0.
+
 = 2.1 =
 * Updated notices logic.
 
@@ -84,6 +88,9 @@ Not at all, you can simply add one, and everytime you save, you would be prompte
 * First release.
 
 == Upgrade Notice ==
+
+= 2.5 =
+This includes the latest Font Awesome version, as well as fixing an important bug with the first link.
 
 = 1.0 =
 This is the official release, based on feedback I have also enhanced the usability quite a bit.
